@@ -1,0 +1,11 @@
+{
+  "name": "shopkarttt",
+  "version": "1.0.0",
+  "description": "ShopKart Full-Stack Application (Labs 01 to 04)",
+  "scripts": {
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "test": "node test-api.js"
+  }
+}

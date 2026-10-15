@@ -1,0 +1,24 @@
+{
+  "name": "shopkart-backend",
+  "version": "1.0.0",
+  "description": "ShopKart Backend Service covering Labs 01 to 04",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "razorpay": "^2.9.8"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.1.3"
+  }
+}
