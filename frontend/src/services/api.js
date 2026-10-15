@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5001",
+  baseURL: import.meta.env.VITE_API_URL || "",
   withCredentials: true, // Crucial for HttpOnly cookies
   headers: {
     "Content-Type": "application/json",
